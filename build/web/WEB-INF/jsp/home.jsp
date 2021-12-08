@@ -37,7 +37,7 @@
                             Edit
                         </button>
                         <button class="btn btn-danger" 
-                                onclick="window.location.href='mahasiswa-form.html?action=delete&id=${kas.id}'">
+                                onclick="window.location.href='kas-form.html?action=delete&id=${kas.id}'">
                             Delete
                         </button>
                     </td>
