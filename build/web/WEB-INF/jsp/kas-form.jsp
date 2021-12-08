@@ -27,7 +27,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control" name="bulan" placeholder="BULAN" value="${kas.bulan}">
                     </div>
-                    <input type="hidden" name="id" value="${kas.id}">
+                    <input type="hidden" name="id" value="${kas.id? kas.id:0}">
                     <button type="submit" class="btn btn-primary">Save</button>
                 </form>
             </div>
