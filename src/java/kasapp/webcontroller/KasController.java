@@ -79,7 +79,7 @@ public class KasController {
     private ModelAndView deleteKas(HttpServletRequest req, HttpServletResponse res) {
         String id=req.getParameter("id");
         if(kasDao.delete(Integer.parseInt(id))){
-            return new ModelAndView("Redirect:/home.html");
+            return new ModelAndView("redirect:/home.html");
         }else{
             req.setAttribute("message", "gagal delete");
             return addKas(req,res);
